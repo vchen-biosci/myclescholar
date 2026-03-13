@@ -1,0 +1,11 @@
+html {
+    background-color: MistyRose;
+color: Firebrick;
+font-family: "RainyHearts"; 
+src: "/Users/Vivienne/Desktop/coding/html stuff/fonts/rainyhearts.ttf" format("truetype");
+}
+
+h1 {
+    font-family: "RainyHearts", cursive;
+}
+
