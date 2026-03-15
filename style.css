@@ -1,0 +1,18 @@
+html {
+color: Firebrick;
+}
+
+
+
+@font-face {
+    font-family: 'rainyhearts';
+    src: url(fonts/rainyhearts.ttf) format('truetype');
+}
+
+h1.custom-text {
+    font-family: 'rainyhearts', sans-serif
+}
+
+p.custom-text {
+    font-family: 'rainyhearts', sans-serif;
+}
