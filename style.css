@@ -1,7 +1,12 @@
 html {
-color: Firebrick;
+color:favcolor;
+background-color: snow;
+padding: 20px;
 }
 
+:root {
+    --theme-color: #BADA55;
+}
 
 
 @font-face {
@@ -10,9 +15,33 @@ color: Firebrick;
 }
 
 h1.custom-text {
-    font-family: 'rainyhearts', sans-serif
+    background-color: #b0e8ea;
+    font-family: 'rainyhearts', sans-serif;
+    padding: 0px;
 }
 
 p.custom-text {
     font-family: 'rainyhearts', sans-serif;
+    ;
+}
+
+a.custom-text {
+    font-family: 'rainyhearts', sans-serif;
+    color: favcolor;
+    display:inline-block
+}
+button:hover {
+    color: favcolor;
+}
+
+.button {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(176, 232, 234);
+    
+}
+
+label {
+    font-family: 'rainyhearts'
 }
